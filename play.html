@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="playstyle.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="game-title-container">
+        <div class="back-to-home"><a href="index.html">Home</a> > <p id="game-type">Game</p></div>
+        <h2 id="title">Loading game...</h2>
+        <p>By <a href="#" class="companyname">bestonline.com</a></p>
+        <button onclick="openFullscreen()">Fullscreen</button>
+    </div>
+
+    <div class="display-game">
+    <iframe id="gameFrame" width="100%" height="90%"></iframe>
+    <div class="iframe-bottom">
+        <div class="iframe-logo">
+            <img src="./img/gamehub_logo.png" alt="">
+        </div>
+        <!-- Home -->
+       <a href="browse.html">
+         <div class="iframe-bottom-svgs">
+            <div class="iframe-svgs">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="white" width="30px"><!--!Font Awesome Free v7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.--><path d="M341.8 72.6C329.5 61.2 310.5 61.2 298.3 72.6L74.3 280.6C64.7 289.6 61.5 303.5 66.3 315.7C71.1 327.9 82.8 336 96 336L112 336L112 512C112 547.3 140.7 576 176 576L464 576C499.3 576 528 547.3 528 512L528 336L544 336C557.2 336 569 327.9 573.8 315.7C578.6 303.5 575.4 289.5 565.8 280.6L341.8 72.6zM304 384L336 384C362.5 384 384 405.5 384 432L384 528L256 528L256 432C256 405.5 277.5 384 304 384z"/></svg>
+            </div>
+       </a>
+            <!-- FullScreen -->
+            <div class="iframe-svgs" onclick="openFullscreen()">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="24" height="24" fill="white">
+                <path d="M344 0L488 0c13.3 0 24 10.7 24 24l0 144c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-39-39-87 87c-9.4 9.4-24.6 9.4-33.9 0l-32-32c-9.4-9.4-9.4-24.6 0-33.9l87-87-39-39c-6.9-6.9-8.9-17.2-5.2-26.2S334.3 0 344 0zM168 512L24 512c-13.3 0-24-10.7-24-24L0 344c0-9.7 5.8-18.5 14.8-22.2S34.1 320.2 41 327l39 39 87-87c9.4-9.4 24.6-9.4 33.9 0l32 32c9.4 9.4 9.4 24.6 0 33.9l-87 87 39 39c6.9 6.9 8.9 17.2 5.2 26.2S177.7 512 168 512z"/>
+            </svg>
+            </div>
+        </div>
+    </div>
+    </div>
+<script>
+    // iframe Full Screen
+    function openFullscreen() {
+  const frame = document.getElementById("gameFrame");
+
+  if (frame.requestFullscreen) {
+    frame.requestFullscreen();
+  } 
+  else if (frame.webkitRequestFullscreen) { // Safari
+    frame.webkitRequestFullscreen();
+  } 
+  else if (frame.msRequestFullscreen) { // IE/Edge old
+    frame.msRequestFullscreen();
+  }
+}
+
+// Games
+    const params = new URLSearchParams(window.location.search);
+const game = params.get("game");
+
+const frame = document.getElementById("gameFrame");
+const title = document.getElementById("title");
+
+// simple game system
+if(game === "amongus"){
+  title.innerText = "Among Us: Online-Edition";
+  frame.src = "https://kiz10.com/embed-play/among-us--online-edition/?img=13271/among-us--online-edition_x.webp";
+}
+
+else if(game === "Dagestan Drift"){
+  title.innerText = "Dagestan Drift";
+  frame.src = "https://kiz10.com/embed-play/dagestan-drift/?img=20928/1756395428_dagestan-drift.webp";
+}
+
+else if(game === "Counter Strike"){
+  title.innerText = "Counter Strike";
+  frame.src = "https://kiz10.com/embed-play/counter-strike/?img=569/1385866675_juegos-gbatis-counteb.webp";
+}
+
+else if(game === "Kiz10Driving School Simulator"){
+  title.innerText = "Kiz10Driving School Simulator";
+  frame.src = "https://kiz10.com/embed-play/driving-school-simulator/?img=23655/1775850653_driving-school-simulator.webp";
+}
+
+else if(game === "Challenger City Driver"){
+  title.innerText = "Challenger City Driver";
+  frame.src = "https://kiz10.com/embed-play/challenger-city-driver/?img=23159/1769643441_challenger-city-driver.webp";
+}
+
+else if(game === "Rooftop Run"){
+  title.innerText = "Rooftop Run";
+  frame.src = "https://kiz10.com/embed-play/rooftop-run/?img=22220/1763087898_rooftop-run.webp";
+}
+
+else if(game === "Backflip Dive 3D"){
+  title.innerText = "Backflip Dive 3D";
+  frame.src = "https://kiz10.com/embed-play/backflip-dive-3d/?img=11210/1571157166_backflip-dive-3d.webp";
+}
+
+else if(game === "Buggy Racing"){
+  title.innerText = "Buggy Racing";
+  frame.src = "https://kiz10.com/embed-play/buggy-racing/?img=23690/1776289571_buggy-racing.webp";
+}
+else if(game === "Parkour"){
+  title.innerText = "Parkour";
+  frame.src = "https://kiz10.com/embed-play/parkour/?img=23748/1777140017_parkour.webp";
+}
+else if(game === "Football Legends 2026"){
+  title.innerText = "Football Legends 2026";
+  frame.src = "https://html5.gamedistribution.com/13eabea86f7c4cd993a156258420e9ec/?gd_sdk_referrer_url=https://gamedistribution.com/games/football-legends-2026/";
+}
+else if(game === "Traffic Racing"){
+  title.innerText = "Traffic Racing";
+  frame.src = "https://html5.gamedistribution.com/f3ee6674b4ea4579aeefd54d7bf388f0/?gd_sdk_referrer_url=https://gamedistribution.com/games/traffic-racing-1/";
+}
+
+
+else {
+  title.innerText = "Game not found";
+}
+</script>
+</body>
+</html>

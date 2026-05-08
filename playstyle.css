@@ -1,0 +1,128 @@
+.game-title-container{
+    width: 90%;
+    height: 200px;
+    background-color: #999ba5;
+    margin-top: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.back-to-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  rgb(2, 16, 56);
+     margin: 0;
+     height: 20px;
+}
+.back-to-home a{
+    color:  rgb(2, 16, 56);
+    text-decoration: none;
+   
+}
+
+.companyname{
+    color: black;
+}
+
+#title{
+    color: #01092e;
+    font-size: 45px;
+    margin: 0;
+}
+
+.game-title-container button{
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     background: linear-gradient(140deg, #5c0354, #08043f);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.display-game{
+    width: 70%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+iframe{
+    border: none;
+}
+
+.iframe-bottom{
+    width: 100%;
+    height: 10%;
+    background-color: #0f024b;
+    overflow: hidden;
+    border: 2px solid #0826aa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.iframe-logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iframe-logo img{
+    width: 180px;
+}
+
+.iframe-bottom-svgs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 120px;
+}
+.iframe-svgs{
+    width: 40px;
+    height: 40px;
+    background-color: #221c7442;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+
+/* RESPONIVNESS */
+/* Tablets */
+@media (max-width: 900px) {
+
+  .game-title-container{
+    width: 95%;
+    height: auto;
+    padding: 20px;
+  }
+
+  #title{
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .display-game{
+    width: 90%;
+    height: 400px;
+  }
+
+  .iframe-logo img{
+    width: 140px;
+  }
+}
