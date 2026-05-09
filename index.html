@@ -8,9 +8,9 @@
     <title>GameHub</title>
 </head>
 <body>
-      <div id="preloader">
+      <!-- <div id="preloader">
          <img src="./img/gamehub_logo.png" alt="" class="loader">
-    </div>
+    </div> -->
 
    <div class="header">
      <header>
@@ -68,71 +68,9 @@
 
 
 <div class="center-content-games-homepage">
-    <section class="games">
+    <section class="games" id="gameContainer">
          
-      
-      <!-- Among Us -->
-      <div class="game-card">
-  <div class="game-image">
-    <img src="./img/among-us--online-edition_x.jpg" alt="Game Image">
-  </div>
-  <div class="game-content">
-    <h3>Among Us</h3>
-    <p>A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.</p>
-    <a href="./play.html?game=amongus"><button>Play Game</button></a>
-  </div>
-    </div>
-
-
-<!--  Dagestan Drift-->
-        <div class="game-card">
-  <div class="game-image">
-    <img src="./img/1756395428_dagestan-drift.jpg" alt="Game Image">
-  </div>
-  <div class="game-content">
-    <h3>Dagestan Drift</h3>
-    <p>A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.</p>
-    <a href="./play.html?game=Dagestan Drift"><button>Play Game</button></a>
-  </div>
-    </div>
-
-<!-- Counter Strike -->
-       <div class="game-card">
-  <div class="game-image">
-    <img src="./img/1385866675_juegos-gbatis-counteb.jpg" alt="Game Image">
-  </div>
-  <div class="game-content">
-    <h3>Counter Strike</h3>
-    <p>A tactical first-person shooter where players spawn into competitive maps, buy weapons, and fight in fast, round-based matches. Every step, angle, and decision matters as teams try to outplay each other through strategy, aim, and timing.</p>
-    <a href="./play.html?game=Counter Strike"><button>Play Game</button></a>
-  </div>
-    </div>
-
-    <!-- Kiz10Driving School Simulator -->
-           <div class="game-card">
-  <div class="game-image">
-    <img src="./img/1775850653_driving-school-simulator.jpg" alt="Game Image">
-  </div>
-  <div class="game-content">
-    <h3>Kiz10Driving School Simulator</h3>
-    <p>A realistic driving simulator where players learn to handle traffic, complete missions, and explore an open city. It combines careful driving, parking challenges, and high-speed races, rewarding control, patience, and skill over reckless speed.</p>
-    <a href="./play.html?game=Kiz10Driving School Simulator"><button>Play Game</button></a>
-  </div>
-    </div><br>
-
-
-<!-- Challenger City Driver -->
-     <div class="game-card">
-  <div class="game-image">
-    <img src="./img/1769643441_challenger-city-driver.jpg" alt="Game Image">
-  </div>
-  <div class="game-content">
-    <h3>Challenger City Driver</h3>
-    <p>A realistic driving simulator where players learn to handle traffic, complete missions, and explore an open city. It combines careful driving, parking challenges, and high-speed races, rewarding control, patience, and skill over reckless speed.</p>
-    <a href="./play.html?game=Challenger City Driver"><button>Play Game</button></a>
-  </div>
-    </div>
-
+  
 
     <!-- Rooftop Run -->
      <div class="game-card">
@@ -154,28 +92,6 @@
 
    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1756462671549454"
      crossorigin="anonymous"></script>
-     <script>
-         window.addEventListener('load', function() {
-    const preloader = document.getElementById('preloader');
-    const content = document.getElementById('content');
-
-    // Record the time when the page finished loading
-    const loadTime = Date.now();
-
-    // Set a minimum display duration for the preloader ( seconds)
-    const minDisplayDuration = 4000; 
-
-    // Calculate how much time is left for the minimum display
-    const timeElapsed = Date.now() - loadTime;
-    const timeLeft = minDisplayDuration - timeElapsed;
-
-    // Use setTimeout to hide the preloader and show content after the remaining time,
-    // ensuring a minimum of 5 seconds
-    setTimeout(function() {
-        preloader.style.display = 'none';
-        content.style.display = 'block';
-    }, Math.max(0, timeLeft)); // Ensures a non-negative delay
-});
-//      </script>
+     <script src="script.js"></script>
 </body>
 </html>
