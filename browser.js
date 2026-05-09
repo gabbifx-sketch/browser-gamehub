@@ -100,6 +100,16 @@ const games = [
     }
   },
         {
+    title: "Dagestan Drift",
+    img: "./img/1756395428_dagestan-drift.jpg",
+    desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
+    id:  "Dagestan Drift",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+        {
     title: "Vortex 9",
     img: "./img/vortex-9_o.jpg",
     desc: "A fast-paced action game where you jump into intense vortex-powered battles, using quick movement, reflexes, and special abilities to fight enemies and overcome dynamic challenges in chaotic, high-energy environments.",
@@ -109,9 +119,19 @@ const games = [
           desktop: true
     }
   },
+      {
+    title: "Counter Strike",
+    img: "./img/1385866675_juegos-gbatis-counteb.jpg",
+    desc: "A tactical first-person shooter where players spawn into competitive maps, buy weapons, and fight in fast, round-based matches. Every step, angle, and decision matters as teams try to outplay each other through strategy, aim, and timing.",
+    id:  "Counter Strike",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
           {
     title: "FRAGEN",
-    img: "./img/1750532663_fragen.jpg/",
+    img: "./img/1750532663_fragen.jpg",
     desc: "A fast-paced action shooter where you’re dropped into chaotic battlefields, fight waves of enemies, and survive intense combat using quick reflexes, powerful weapons, and nonstop movement in explosive warzone-style missions.",
     id:  "FRAGEN",
           platform: {
@@ -129,6 +149,127 @@ const games = [
           desktop: true
     }
   },
+              {
+    title: "Among Us",
+    img: "./img/among-us--online-edition_x.jpg",
+    desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
+    id:  "Among Us",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+                {
+    title: "Driving School Simulator",
+    img: "./img/1775850653_driving-school-simulator.jpg",
+    desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
+    id:  "Driving School Simulator",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+
+                  {
+    title: "Funny City",
+    img: "./img/1766118491_funny-city-gopniks.jpg",
+    desc: "🎮 Play Empire is a free online game website with action, racing, parkour, shooting, and more. Play instantly in your browser with no downloads and enjoy nonstop fun and chaos in one place.",
+    id:  "Funny City",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+
+                  {
+    title: "War The Knights: Battle",
+    img: "./img/1751394909_war-the-knights-battle-arena-swords-3d.jpg",
+    desc: "🎮 War The Knights: Battle Arena Swords 3D is a focused sword-fighting game where every duel is about timing, patience, and precision. Step into quiet arenas, face skilled opponents, and win battles with careful strikes and blocks instead of chaos or numbers. Every fight is simple, intense, and personal — just you, your sword, and the moment in front of you.",
+    id:  "War The Knights",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+
+                  {
+    title: "Sandbox City",
+    img: "./img/conquer-the-city.png",
+    desc: "Drive, fight and survive a zombie city sandbox full of chaos, ragdolls and nonstop action in Kiz10 🚗🧟",
+    id:  "Sandbox City",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+
+                  {
+    title: "Driving School Simulator",
+    img: "./img/1775850653_driving-school-simulator.jpg",
+    desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
+    id:  "Driving School Simulator",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+
+                  {
+    title: "Driving School Simulator",
+    img: "./img/1775850653_driving-school-simulator.jpg",
+    desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
+    id:  "Driving School Simulator",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+
+                  {
+    title: "Driving School Simulator",
+    img: "./img/1775850653_driving-school-simulator.jpg",
+    desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
+    id:  "Driving School Simulator",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+
+                  {
+    title: "Driving School Simulator",
+    img: "./img/1775850653_driving-school-simulator.jpg",
+    desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
+    id:  "Driving School Simulator",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+
+                  {
+    title: "Eaglercraft",
+    img: "./img/eaglercraft.jpeg",
+    desc: "Eglercraft is a free online block-building and survival game where you can explore, mine, craft, and build anything you imagine in an open 3D world. Gather resources, survive the environment, and create your own adventure directly in your browser with no downloads needed.",
+    id:  "Eaglercraft",
+          platform: {
+          mobile: false,
+          desktop: true
+    }
+  },
+
+                  {
+    title: "Messanger",
+    img: "./img/messanger.jpeg",
+    desc: "",
+    id:  "Messanger",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+
+
 
 ];
 
@@ -175,10 +316,12 @@ games.forEach(game => {
     <div class="game-content">
       <h3>${game.title}</h3>
       <p>${game.desc}</p>
-
-      <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="white">
+    <div style="display: flex; align-items:center; justify-content: center; ">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="white" style="margin-right: 10px;">
         <path d="M7 7L5.5 5.5M15 7L16.5 5.5M5.5 16.5L7 15M11 5L11 3M5 11L3 11M17.1603 16.9887L21.0519 15.4659C21.4758 15.3001 21.4756 14.7003 21.0517 14.5346L11.6992 10.8799C11.2933 10.7213 10.8929 11.1217 11.0515 11.5276L14.7062 20.8801C14.8719 21.304 15.4717 21.3042 15.6375 20.8803L17.1603 16.9887Z" stroke="#ececec" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
+        </svg>
+        <p style="color: white; font-weight: bold; margin-top: 10px;">Tap</p>
+    </div>
 
     </div>
 
@@ -188,3 +331,4 @@ games.forEach(game => {
 
   container.appendChild(card);
 });
+

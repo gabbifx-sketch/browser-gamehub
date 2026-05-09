@@ -36,8 +36,8 @@ else if(game === "Counter Strike"){
   frame.src = "https://kiz10.com/embed-play/counter-strike/?img=569/1385866675_juegos-gbatis-counteb.webp";
 }
 
-else if(game === "Kiz10Driving School Simulator"){
-  title.innerText = "Kiz10Driving School Simulator";
+else if(game === "Driving School Simulator"){
+  title.innerText = "Driving School Simulator";
   frame.src = "https://kiz10.com/embed-play/driving-school-simulator/?img=23655/1775850653_driving-school-simulator.webp";
 }
 
@@ -92,10 +92,56 @@ else if(game === "FRAGEN"){
   title.innerText = "FRAGEN";
   frame.src = "https://kiz10.com/embed-play/fragen/?img=19936/1750532663_fragen.webp";
 }
+else if(game === "War The Knights"){
+  title.innerText = "War The Knights: Battle";
+  frame.src = "https://kiz10.com/embed-play/war-the-knights-battle-arena-swords-3d/?img=20053/1751394909_war-the-knights-battle-arena-swords-3d.webp";
+}
+else if(game === "Sandbox City"){
+  title.innerText = "Sandbox City";
+  frame.src = "https://kiz10.com/embed-play/sandbox-city---cars--zombies--ragdolls-/?img=15101/conquer-the-city_.webp";
+}
+
+else if(game === "Funny City"){
+  title.innerText = "Funny City";
+  frame.src = "https://kiz10.com/embed-play/funny-city-gopniks/?img=22782/1766118491_funny-city-gopniks.webp";
+}
+
 else if(game === "Riders Downhill Racing"){
   title.innerText = "Riders Downhill Racing";
   frame.src = "https://kiz10.com/embed-play/riders-downhill-racing/?img=18057/riders-downhill-racing_.webp";
 }
+
+else if(game === "Riders Downhill Racing"){
+  title.innerText = "Riders Downhill Racing";
+  frame.src = "https://kiz10.com/embed-play/riders-downhill-racing/?img=18057/riders-downhill-racing_.webp";
+}
+
+else if(game === "Riders Downhill Racing"){
+  title.innerText = "Riders Downhill Racing";
+  frame.src = "https://kiz10.com/embed-play/riders-downhill-racing/?img=18057/riders-downhill-racing_.webp";
+}
+
+else if(game === "Riders Downhill Racing"){
+  title.innerText = "Riders Downhill Racing";
+  frame.src = "https://kiz10.com/embed-play/riders-downhill-racing/?img=18057/riders-downhill-racing_.webp";
+}
+
+else if(game === "Riders Downhill Racing"){
+  title.innerText = "Riders Downhill Racing";
+  frame.src = "https://kiz10.com/embed-play/riders-downhill-racing/?img=18057/riders-downhill-racing_.webp";
+}
+
+else if(game === "Eaglercraft"){
+  title.innerText = "Eaglercraft";
+  frame.src = "https://eaglercraft.com/play?version=1.8.8";
+}
+
+else if(game === "Messanger"){
+  title.innerText = "Messanger";
+  frame.src = "https://messenger.abeto.co/";
+}
+
+
 
 
 
