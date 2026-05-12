@@ -204,10 +204,10 @@ const games = [
   },
 
                   {
-    title: "Driving School Simulator",
-    img: "./img/1775850653_driving-school-simulator.jpg",
+    title: "Free Kick Football: 3D Soccer",
+    img: "./img/freekickball.jpg",
     desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
-    id:  "Driving School Simulator",
+    id:  "Free Kick Football",
           platform: {
           mobile: true,
           desktop: true
@@ -215,10 +215,10 @@ const games = [
   },
 
                   {
-    title: "Driving School Simulator",
-    img: "./img/1775850653_driving-school-simulator.jpg",
+    title: "Stick Man War",
+    img: "./img/Stickwar.jpg",
     desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
-    id:  "Driving School Simulator",
+    id:  "Stick Man War",
           platform: {
           mobile: true,
           desktop: true
@@ -226,10 +226,10 @@ const games = [
   },
 
                   {
-    title: "Driving School Simulator",
-    img: "./img/1775850653_driving-school-simulator.jpg",
+    title: "Ladderrex",
+    img: "./img/Ladderrex-512x384.jpg",
     desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
-    id:  "Driving School Simulator",
+    id:  "Ladderrex",
           platform: {
           mobile: true,
           desktop: true
@@ -237,10 +237,10 @@ const games = [
   },
 
                   {
-    title: "Driving School Simulator",
-    img: "./img/1775850653_driving-school-simulator.jpg",
+    title: "Slap Fest",
+    img: "./img/coverslap.avif",
     desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
-    id:  "Driving School Simulator",
+    id:  "Slap Fest",
           platform: {
           mobile: true,
           desktop: true
@@ -268,6 +268,184 @@ const games = [
           desktop: true
     }
   },
+                    {
+    title: "Stickman Fights",
+    img: "./img/Stickman Fights-512x384.jpg",
+    desc: "Ladderrex is a fast-paced racing game where you collect logs to build ladders and overcome obstacles before your opponent. Use smart timing, quick reactions, and careful resource management to cross platforms, avoid hazards, and win every intense race.",
+    id:  "Stickman Fights",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+
+                    {
+    title: "Shadow Fight 2",
+    img: "./img/shadowfight2.jpg",
+    desc: "Shadow Fight 2 is an action-packed martial arts RPG where you battle powerful enemies using weapons, armor, and deadly combat skills. Fight through dangerous worlds, defeat epic bosses, and become the ultimate shadow warrior in this intense online fighting game.",
+    id:  "Shadow Fight 2",
+          platform: {
+          mobile: true,
+          desktop: false
+    }
+  },
+
+                      {
+    title: "Drag Battle: Street Racing",
+    img: "./img/dragbattle.webp",
+    desc: "Drag Battle: Street Racing is a high-speed 3D drag racing game where tuning, timing, and precision decide every race. Customize powerful cars, upgrade performance parts, challenge legendary bosses, and dominate underground streets in this intense online racing experience.",
+    id:  "Drag Battle",
+          platform: {
+          mobile: false,
+          desktop: false
+    }
+  },   {
+    title: "Realistic Driver Simulator",
+    img: "./img/igra-realistichnyj-simulyator-vozhdeniya.jpg",
+    desc: "Escape a high-security prison in Mad City Prison Escape 2. Wrongly accused and guided by a veteran architect, you must sneak past guards and cameras to clear your name. Outsmart the system, find secret paths, and break for freedom!",
+    id:  "Realistic Driver Simulator",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+
+                      {
+    title: "Special Forces X",
+    img: "./img/Special Forces X-512x384.jpg",
+    desc: "Special Forces X is an intense action shooting game where you join elite special forces soldiers on dangerous combat missions against powerful enemies. Use modern weapons, sharp reflexes, and smart tactics to survive fast-paced battles and clear every mission in this thrilling online shooter.",
+    id:  "Special Forces X",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },  {
+    title: "SWAGFLIP",
+    img: "./img/1762451886_swagflip.jpg",
+    desc: "Ev.io is a lightning-fast, futuristic FPS that brings Halo-style combat straight to your browser. Use tactical abilities like teleportation, triple jumps, and grenades to dominate neon-soaked arenas. It’s sleek, competitive, and built for players who love high-speed gunplay and sharp movement. Pick your loadout and climb the leaderboard!",
+    id:  "SWAGFLIP",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+
+                      {
+    title: "KS Z",
+    img: "./img/Special Forces X-512x384.jpg",
+    desc: "Special Forces X is an intense action shooting game where you join elite special forces soldiers on dangerous combat missions against powerful enemies. Use modern weapons, sharp reflexes, and smart tactics to survive fast-paced battles and clear every mission in this thrilling online shooter.",
+    id:  "KS Z",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },      {
+    title: "Mad City Prison Escape 2",
+    img: "./img/igra-bezumnyj-gorod-pobeg-iz-tyurmy-2.jpg",
+    desc: "Escape a high-security prison in Mad City Prison Escape 2. Wrongly accused and guided by a veteran architect, you must sneak past guards and cameras to clear your name. Outsmart the system, find secret paths, and break for freedom!",
+    id:  "Mad City Prison Escape 2",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+
+                      {
+    title: "SchoolBoy Runaway",
+    img: "./img/schoolboyrunaway.webp",
+    desc: "SchoolBoy Runaway is a stealth escape game where you play as a grounded student trying to sneak out of the house without getting caught by strict parents. Hide, solve puzzles, avoid making noise, and carefully plan every move to escape the house in this tense and clever 3D adventure.",
+    id:  "SchoolBoy Runaway",
+          platform: {
+          mobile: true,
+          desktop: false
+    }
+  },
+ {
+    title: "Poppy Playtime",
+    img: "./img/poppy-playtime.jpg",
+    desc: "Revisit the decaying Playtime Co. factory, where dusty posters and eerie silence hide a grim secret. As an ex-employee, you must solve puzzles and outrun bloodthirsty toys in a terrifying game of hide-and-seek. What happened to the staff? The truth is waiting in the shadows, and it has too many teeth.",
+    id:  "Poppy Playtime",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+   {
+    title: "Phasmophobia",
+    img: "./img/1754707238_phasmophobia.jpg",
+    desc: "Hunt ghosts with high-tech gear in Phasmophobia. Watch the flickering lights—the hunt has begun!",
+    id:  "Phasmophobia",
+          platform: {
+          mobile: true,
+          desktop: false
+    }
+  }, 
+    {
+    title: "Venge",
+    img: "./img/venge.jpg",
+    desc: "Grab your guns and get ready to crack some skulls—literally. **Shell Shockers** is a high-octane FPS where everyone is an egg. Customize your yolk, pick a weapon, and scramble your enemies in a frantic arena. It’s fast, hilarious, and egg-stremely addictive. Over easy? Not a chance.",
+    id:  "Venge",
+          platform: {
+          mobile: true,
+          desktop: false
+    }
+  },
+  {
+    title: "Ev.io",
+    img: "./img/ev-io.avif",
+    desc: "Ev.io is a lightning-fast, futuristic FPS that brings Halo-style combat straight to your browser. Use tactical abilities like teleportation, triple jumps, and grenades to dominate neon-soaked arenas. It’s sleek, competitive, and built for players who love high-speed gunplay and sharp movement. Pick your loadout and climb the leaderboard!",
+    id:  "Ev.io",
+          platform: {
+          mobile: true,
+          desktop: false
+    }
+  },
+ 
+   {
+    title: "Ride in Cadillac Escalade",
+    img: "./img/igra-raz-ezzhaj-na-kadillake-eskalejd.jpg",
+    desc: "",
+    id:  "Ride in Cadillac Escalade",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+  
+  {
+    title: "Crash: BoomNG Drive",
+    img: "./img/igra-avarii-bum-drajv.jpg",
+    desc: "Dive into the thrilling adventure of Crash: BoomNG Drive! Get ready for amazing gameplay in this game! The following maps will be available: Port, City, Test, Route, Coverage, and Area. You can adjust the car's settings while driving. To do this, go to the game menu and open the settings section of your vehicle. Here, you can do almost anything you want. Want to customize it for drift or add a couple hundred horsepower? All this can be done in a few clicks. The funny thing is that you can even change rims and tires while driving. Note! If you land in the river after adjusting the vehicle, speed up, and lose control, then in a moment, you will be in the starting position. The disadvantage is that all settings will be lost, and the car will regain its original state. We wish you a pleasant game!",
+    id:  "BoomNG Drive",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+  
+    {
+    title: "Vector Rush: Online",
+    img: "./img/igra-vektor.jpg",
+    desc: "Outrun a devastating earthquake in Vector Rush, a high-stakes parkour chase through a crumbling city. Master intuitive controls to slide, climb, and flip across 15 intense levels. One wrong move or a second of hesitation is the end—move fast, unlock extreme stunts, and survive the chaos!",
+    id:  "Vector Rush",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+
+    {
+    title: "Shell Shockers",
+    img: "./img/OSK.jpg",
+    desc: "Outrun a devastating earthquake in Vector Rush, a high-stakes parkour chase through a crumbling city. Master intuitive controls to slide, climb, and flip across 15 intense levels. One wrong move or a second of hesitation is the end—move fast, unlock extreme stunts, and survive the chaos!",
+    id:  "Shell Shockers",
+          platform: {
+          mobile: true,
+          desktop: true
+    }
+  },
+
+
 
 
 
@@ -310,7 +488,7 @@ games.forEach(game => {
     </div>
 
     <div class="game-image">
-      <img src="${game.img}" alt="Game Image">
+      <img src="${game.img}" alt="Game Image" loading="lazy">
     </div>
 
     <div class="game-content">
