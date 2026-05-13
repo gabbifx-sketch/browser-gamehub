@@ -5,8 +5,8 @@ const games = [
     desc: "A fast-paced rooftop parkour runner where you sprint across city buildings, jumping, sliding, and dodging obstacles while trying to survive a nonstop rooftop chase.",
     id: "Rooftop Run",
     platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
   {
@@ -15,8 +15,8 @@ const games = [
     desc: "A 3D diving game where you jump from platforms, perform backflips in the air, and aim for a clean water landing by timing your rotations and controlling your dive.",
     id: "Backflip Dive 3D",
       platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
   {
@@ -25,8 +25,8 @@ const games = [
     desc: "A fast-paced off-road arcade racing game where you drive buggies through rough tracks, dodge obstacles, and compete in different modes like racing, time trials, and endless runs, all focused on speed, control, and chaotic fun.",
     id:  "Buggy Racing",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
     {
@@ -35,8 +35,8 @@ const games = [
     desc: "A realistic driving simulator where players learn to handle traffic, complete missions, and explore an open city. It combines careful driving, parking challenges, and high-speed races, rewarding control, patience, and skill over reckless speed.",
     id:  "Challenger City Driver",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
      {
@@ -45,18 +45,18 @@ const games = [
     desc: "A challenging parkour platformer where you run, jump, climb, and avoid traps across dangerous obstacle-filled levels that test your timing, precision, and reflexes.",
     id:  "Parkour",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
    {
     title: "Football Legends 2026",
     img: "./img/Football Legends 2026_images/image3.jpg",
-    desc: "A fast-paced football (soccer) game where you lead your team to victory, score goals, perform skillful plays, and rise through matches to become a true legend on the pitch.",
+    desc: "A fast-paced football (soccer) game where you lead your team to victory, score goals, perform skillful plays, and rise through matches to become a false legend on the pitch.",
     id:  "Football Legends 2026",
             platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
   {
@@ -65,8 +65,8 @@ const games = [
     desc: "Traffic Racing is a fast-paced driving game that throws you into intense highway action where every second counts. Weave through heavy traffic at high speeds as you compete in Career Mode or test your skills against others in Racing League Online.",
     id:  "Traffic Racing",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
    {
@@ -75,8 +75,8 @@ const games = [
     desc: "A precision-based sniper puzzle game where you line up shots, calculate angles, and eliminate targets with a single well-timed bullet, often using ricochets and environmental trick shots to complete each level.",
     id:  "Stick Kill 3D",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
      {
@@ -85,8 +85,8 @@ const games = [
     desc: "A high-speed motorcycle traffic racing game where you weave through busy highways, overtake vehicles, use nitro boosts, and test your reflexes across different roads, bikes, and modes while chasing clean, skillful riding and top performance.",
     id:  "Moto Traffic Rider",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
       {
@@ -95,8 +95,8 @@ const games = [
     desc: "A fast-paced running and strategy game where you control a stickman crowd, pass through math gates to multiply or lose units, and build your army while avoiding traps and battling enemies in chaotic, skill-based levels.",
     id:  "Count Masters",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
         {
@@ -105,8 +105,8 @@ const games = [
     desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
     id:  "Dagestan Drift",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
         {
@@ -115,8 +115,8 @@ const games = [
     desc: "A fast-paced action game where you jump into intense vortex-powered battles, using quick movement, reflexes, and special abilities to fight enemies and overcome dynamic challenges in chaotic, high-energy environments.",
     id:  "Vortex 9",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
       {
@@ -125,8 +125,8 @@ const games = [
     desc: "A tactical first-person shooter where players spawn into competitive maps, buy weapons, and fight in fast, round-based matches. Every step, angle, and decision matters as teams try to outplay each other through strategy, aim, and timing.",
     id:  "Counter Strike",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
           {
@@ -135,8 +135,8 @@ const games = [
     desc: "A fast-paced action shooter where you’re dropped into chaotic battlefields, fight waves of enemies, and survive intense combat using quick reflexes, powerful weapons, and nonstop movement in explosive warzone-style missions.",
     id:  "FRAGEN",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
             {
@@ -145,8 +145,8 @@ const games = [
     desc: "A high-speed downhill bike racing game where you ride through realistic tracks, perform stunts, compete in races, and explore different modes like free ride, career, and multiplayer while upgrading and customizing your bikes.",
     id:  "Riders Downhill Racing",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
               {
@@ -155,8 +155,8 @@ const games = [
     desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
     id:  "Among Us",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
                 {
@@ -165,8 +165,8 @@ const games = [
     desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
     id:  "Driving School Simulator",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
 
@@ -176,8 +176,8 @@ const games = [
     desc: "🎮 Play Empire is a free online game website with action, racing, parkour, shooting, and more. Play instantly in your browser with no downloads and enjoy nonstop fun and chaos in one place.",
     id:  "Funny City",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
 
@@ -187,8 +187,8 @@ const games = [
     desc: "🎮 War The Knights: Battle Arena Swords 3D is a focused sword-fighting game where every duel is about timing, patience, and precision. Step into quiet arenas, face skilled opponents, and win battles with careful strikes and blocks instead of chaos or numbers. Every fight is simple, intense, and personal — just you, your sword, and the moment in front of you.",
     id:  "War The Knights",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
 
@@ -198,8 +198,8 @@ const games = [
     desc: "Drive, fight and survive a zombie city sandbox full of chaos, ragdolls and nonstop action in Kiz10 🚗🧟",
     id:  "Sandbox City",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
 
@@ -209,8 +209,8 @@ const games = [
     desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
     id:  "Free Kick Football",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
 
@@ -220,8 +220,8 @@ const games = [
     desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
     id:  "Stick Man War",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
 
@@ -231,8 +231,8 @@ const games = [
     desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
     id:  "Ladderrex",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
 
@@ -242,8 +242,8 @@ const games = [
     desc: "A free browser-based stealth and social deduction game where you play as an impostor on a spaceship, secretly eliminating crew members while avoiding being caught.",
     id:  "Slap Fest",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
 
@@ -254,7 +254,7 @@ const games = [
     id:  "Eaglercraft",
           platform: {
           mobile: false,
-          desktop: true
+          desktop: false
     }
   },
 
@@ -264,8 +264,8 @@ const games = [
     desc: "",
     id:  "Messanger",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
                     {
@@ -274,8 +274,8 @@ const games = [
     desc: "Ladderrex is a fast-paced racing game where you collect logs to build ladders and overcome obstacles before your opponent. Use smart timing, quick reactions, and careful resource management to cross platforms, avoid hazards, and win every intense race.",
     id:  "Stickman Fights",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
 
@@ -285,7 +285,7 @@ const games = [
     desc: "Shadow Fight 2 is an action-packed martial arts RPG where you battle powerful enemies using weapons, armor, and deadly combat skills. Fight through dangerous worlds, defeat epic bosses, and become the ultimate shadow warrior in this intense online fighting game.",
     id:  "Shadow Fight 2",
           platform: {
-          mobile: true,
+          mobile: false,
           desktop: false
     }
   },
@@ -305,8 +305,8 @@ const games = [
     desc: "Escape a high-security prison in Mad City Prison Escape 2. Wrongly accused and guided by a veteran architect, you must sneak past guards and cameras to clear your name. Outsmart the system, find secret paths, and break for freedom!",
     id:  "Realistic Driver Simulator",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
 
@@ -316,8 +316,8 @@ const games = [
     desc: "Special Forces X is an intense action shooting game where you join elite special forces soldiers on dangerous combat missions against powerful enemies. Use modern weapons, sharp reflexes, and smart tactics to survive fast-paced battles and clear every mission in this thrilling online shooter.",
     id:  "Special Forces X",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },  {
     title: "SWAGFLIP",
@@ -325,19 +325,19 @@ const games = [
     desc: "Ev.io is a lightning-fast, futuristic FPS that brings Halo-style combat straight to your browser. Use tactical abilities like teleportation, triple jumps, and grenades to dominate neon-soaked arenas. It’s sleek, competitive, and built for players who love high-speed gunplay and sharp movement. Pick your loadout and climb the leaderboard!",
     id:  "SWAGFLIP",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
 
                       {
     title: "KS Z",
-    img: "./img/Special Forces X-512x384.jpg",
+    img: "./img/pjpg160x160.webp",
     desc: "Special Forces X is an intense action shooting game where you join elite special forces soldiers on dangerous combat missions against powerful enemies. Use modern weapons, sharp reflexes, and smart tactics to survive fast-paced battles and clear every mission in this thrilling online shooter.",
     id:  "KS Z",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },      {
     title: "Mad City Prison Escape 2",
@@ -345,8 +345,8 @@ const games = [
     desc: "Escape a high-security prison in Mad City Prison Escape 2. Wrongly accused and guided by a veteran architect, you must sneak past guards and cameras to clear your name. Outsmart the system, find secret paths, and break for freedom!",
     id:  "Mad City Prison Escape 2",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
 
@@ -367,7 +367,7 @@ const games = [
     id:  "Poppy Playtime",
           platform: {
           mobile: true,
-          desktop: true
+          desktop: false
     }
   },
    {
@@ -376,7 +376,7 @@ const games = [
     desc: "Hunt ghosts with high-tech gear in Phasmophobia. Watch the flickering lights—the hunt has begun!",
     id:  "Phasmophobia",
           platform: {
-          mobile: true,
+          mobile: false,
           desktop: false
     }
   }, 
@@ -386,7 +386,7 @@ const games = [
     desc: "Grab your guns and get ready to crack some skulls—literally. **Shell Shockers** is a high-octane FPS where everyone is an egg. Customize your yolk, pick a weapon, and scramble your enemies in a frantic arena. It’s fast, hilarious, and egg-stremely addictive. Over easy? Not a chance.",
     id:  "Venge",
           platform: {
-          mobile: true,
+          mobile: false,
           desktop: false
     }
   },
@@ -396,7 +396,7 @@ const games = [
     desc: "Ev.io is a lightning-fast, futuristic FPS that brings Halo-style combat straight to your browser. Use tactical abilities like teleportation, triple jumps, and grenades to dominate neon-soaked arenas. It’s sleek, competitive, and built for players who love high-speed gunplay and sharp movement. Pick your loadout and climb the leaderboard!",
     id:  "Ev.io",
           platform: {
-          mobile: true,
+          mobile: false,
           desktop: false
     }
   },
@@ -407,8 +407,8 @@ const games = [
     desc: "",
     id:  "Ride in Cadillac Escalade",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
   
@@ -418,8 +418,8 @@ const games = [
     desc: "Dive into the thrilling adventure of Crash: BoomNG Drive! Get ready for amazing gameplay in this game! The following maps will be available: Port, City, Test, Route, Coverage, and Area. You can adjust the car's settings while driving. To do this, go to the game menu and open the settings section of your vehicle. Here, you can do almost anything you want. Want to customize it for drift or add a couple hundred horsepower? All this can be done in a few clicks. The funny thing is that you can even change rims and tires while driving. Note! If you land in the river after adjusting the vehicle, speed up, and lose control, then in a moment, you will be in the starting position. The disadvantage is that all settings will be lost, and the car will regain its original state. We wish you a pleasant game!",
     id:  "BoomNG Drive",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
   
@@ -430,7 +430,7 @@ const games = [
     id:  "Vector Rush",
           platform: {
           mobile: true,
-          desktop: true
+          desktop: false
     }
   },
 
@@ -440,14 +440,43 @@ const games = [
     desc: "Outrun a devastating earthquake in Vector Rush, a high-stakes parkour chase through a crumbling city. Master intuitive controls to slide, climb, and flip across 15 intense levels. One wrong move or a second of hesitation is the end—move fast, unlock extreme stunts, and survive the chaos!",
     id:  "Shell Shockers",
           platform: {
-          mobile: true,
-          desktop: true
+          mobile: false,
+          desktop: false
     }
   },
 
+       {
+    title: "Krunker.io",
+    img: "./img/igra-krunker-io.jpg",
+    desc: "Krunker.io is a fast-paced pixel shooter where players battle in intense online matches filled with quick action and block-style combat. Fight through detailed maps, use smart movement and aim, and survive nonstop battles against enemies in this exciting browser FPS game.",
+    id:  "Krunker.io",
+          platform: {
+          mobile: false,
+          desktop: false
+    }
+  },
 
+      {
+    title: "Smash Karat.io",
+    img: "./img/smashkarat.webp",
+    desc: "Smash Karts.io is a chaotic multiplayer kart battle game where you race, drift, and blast opponents with powerful weapons in fast-paced online arenas. Collect rockets, machine guns, and crazy power-ups while smashing rivals and surviving nonstop action in colorful 3D battles.",
+    id:  "Smash Karat.io",
+          platform: {
+          mobile: false,
+          desktop: false
+    }
+  },
 
-
+  {
+    title: "Racing Limits",
+    img: "./img/racing-limits-game_(1).jpg",
+    desc: "Racing Limits is a high-speed driving game where you race through busy highways, dodge traffic, and test your reflexes in multiple exciting modes. Drive across cities, deserts, and highways during day or night while competing against friends and players worldwide in intense online racing action.",
+    id:  "Racing Limits",
+          platform: {
+          mobile: false,
+          desktop: false
+    }
+  },
 
 ];
 
@@ -460,7 +489,7 @@ games.forEach(game => {
   card.className = "game-card";
 
   card.innerHTML = `
-       <a href="./play.html?game=${encodeURIComponent(game.id)}">
+       <a href="./play.html?game=${encodeURIComponent(game.id)}"  target="_blank">
   
   <div class="game-card">
 
@@ -492,14 +521,8 @@ games.forEach(game => {
     </div>
 
     <div class="game-content">
-      <h3>${game.title}</h3>
-      <p>${game.desc}</p>
-    <div style="display: flex; align-items:center; justify-content: center; ">
-      <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24" fill="white" style="margin-right: 10px;">
-        <path d="M7 7L5.5 5.5M15 7L16.5 5.5M5.5 16.5L7 15M11 5L11 3M5 11L3 11M17.1603 16.9887L21.0519 15.4659C21.4758 15.3001 21.4756 14.7003 21.0517 14.5346L11.6992 10.8799C11.2933 10.7213 10.8929 11.1217 11.0515 11.5276L14.7062 20.8801C14.8719 21.304 15.4717 21.3042 15.6375 20.8803L17.1603 16.9887Z" stroke="#ececec" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <p style="color: white; font-weight: bold; margin-top: 10px;">Tap</p>
-    </div>
+      <p>${game.title}</p>
+  
 
     </div>
 
@@ -509,4 +532,3 @@ games.forEach(game => {
 
   container.appendChild(card);
 });
-

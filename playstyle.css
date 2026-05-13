@@ -67,11 +67,11 @@ iframe{
 }
 
 .iframe-bottom{
-    width: 100%;
+    width: 90%;
     height: 10%;
     background-color: #0f024b;
     overflow: hidden;
-    border: 2px solid #0826aa;
+
     display: flex;
     align-items: center;
     justify-content: space-between;

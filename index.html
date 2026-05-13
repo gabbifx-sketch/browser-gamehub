@@ -8,14 +8,14 @@
     <title>GameHub</title>
 </head>
 <body>
-      <div id="preloader">
+      <!-- <div id="preloader">
          <img src="./img/browserGames.png" alt="" class="loader">
-    </div>
+    </div> -->
 
       <div class="social-links">
-     <a href="#">browsergamehub003@gmail.com</a>
+    <a href="#">Email: g*****x@gmail.com</a>
      <div class="social-links-container">
-      <div class="social-links-svg" style="background-image: url(./img/icon-tiktok.png);"></div>
+      <div class="social-links-svg" style="background-image: url(./img/icon-tiktok.png);" ></div>
       <div class="social-links-svg" style="background-image: url(./img/icon-instagram.png);"></div>
       <div class="social-links-svg" style="background-image: url(./img/Youtube.png);"></div>
      </div>
@@ -35,7 +35,16 @@
             <a href="#">Terminal</a>
             <a href="#">About</a>
         </div>
-        <div class="search"></div>
+        <div class="search">
+          <div class="search-container">
+            <input type="search" placeholder="Looking for a game?" id="search">
+            <div class="enter-search">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.6725 16.6412L21 21M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z" " stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+          </div>
+        </div>
 
         <!-- Header svg -->
          <div class="menu-icon">
@@ -89,7 +98,7 @@
      <div class="trending-games">
     <div class="content">
         <h3>Realistic Driving</h3>
-        <button>Play Now!</button>
+       <a href="./play.html?game=${encodeURIComponent(game.id)}">  <button>Play Now!</button></a>
     </div>
         <img src="./img/igra-realistichnyj-simulyator-vozhdeniya.jpg" alt="">
  </div>
